@@ -1,0 +1,12 @@
+{application, loader,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { loader_app, []}},
+  {env, []}
+ ]}.
